@@ -2,6 +2,11 @@
  * Translation strings for all supported languages
  */
 
+// Define the shape of translations using Record for flexibility
+type TranslationStrings = {
+  readonly [key: string]: string;
+};
+
 export type TranslationKey = keyof typeof translations.en;
 
 export const translations = {
@@ -558,9 +563,9 @@ export const translations = {
 export const supportedLanguages = ['en', 'hi', 'ta', 'te'] as const;
 export type SupportedLanguageCode = typeof supportedLanguages[number];
 
-export function getTranslations(lang: string): typeof translations.en {
+export function getTranslations(lang: string): Record<TranslationKey, string> {
   if (lang in translations) {
-    return translations[lang as keyof typeof translations];
+    return translations[lang as keyof typeof translations] as Record<TranslationKey, string>;
   }
-  return translations.en;
+  return translations.en as Record<TranslationKey, string>;
 }
