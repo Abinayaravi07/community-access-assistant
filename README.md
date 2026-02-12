@@ -2,6 +2,10 @@
 
 An AI-powered web application that helps citizens understand and access government schemes and public services. The system simplifies complex government language, provides personalized recommendations based on user profiles, and ensures inclusive access to public benefits.
 
+## 🌐 Live Demo
+
+**[View Live App](https://community-access-assistant-client-d.vercel.app/)**
+
 ## Features
 
 - **User Profile Collection** - Simple questionnaire to gather demographic and socioeconomic information
@@ -9,7 +13,7 @@ An AI-powered web application that helps citizens understand and access governme
 - **Language Simplification** - Complex government jargon translated to easy-to-understand language
 - **Family Member Support** - Identifies benefits for all eligible family members
 - **Privacy-Focused** - All user data processed client-side, never transmitted to servers
-- **Multi-language Support** - Available in English, Tamil, and Hindi
+- **Multi-language Support** - Available in English, Hindi, Tamil, and Telugu
 
 ## Tech Stack
 
@@ -98,6 +102,16 @@ Run tests with coverage:
 ```bash
 npm run test:coverage
 ```
+
+## Deployment
+
+This app is deployed on **Vercel**. Any push to the `main` branch triggers automatic deployment.
+
+**Vercel Settings:**
+- Root Directory: `packages/client`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `cd ../.. && npm install`
 
 ## License
 
