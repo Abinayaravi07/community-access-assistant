@@ -1,6 +1,9 @@
 /**
  * AI Matching Engine
  * Core algorithm for matching user profiles against government scheme eligibility criteria
+ * 
+ * Copyright (c) 2026 Abinaya R (Abinayaravi07)
+ * Licensed under MIT License
  */
 
 import {

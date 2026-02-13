@@ -421,10 +421,61 @@ a:hover {
   }
 }
 
-/* Accessibility: High contrast mode */
-@media (prefers-contrast: high) {
-  :root {
-    --primary-color: #0052cc;
+/* Footer Styles */
+.app-footer {
+  background-color: var(--background);
+  border-top: 1px solid var(--border-color);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footer-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.footer-links {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footer-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+  }
+  
+  .footer-text,
+  .footer-links {
+    font-size: 0.8125rem;
+  }
+}
+
     --text-primary: #000000;
     --border-color: #000000;
   }

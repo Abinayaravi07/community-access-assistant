@@ -1,3 +1,9 @@
+/**
+ * Community Access Assistant - Header Component
+ * Copyright (c) 2026 Abinaya R
+ * Licensed under MIT License
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSession } from '../context/SessionContext';

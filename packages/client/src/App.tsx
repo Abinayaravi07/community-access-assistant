@@ -1,6 +1,14 @@
+/**
+ * Community Access Assistant
+ * Copyright (c) 2026 Abinaya R (Abinayaravi07)
+ * Licensed under MIT License
+ * GitHub: https://github.com/Abinayaravi07/community-access-assistant
+ */
+
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { ProfilePage } from './pages/ProfilePage';
 import { ResultsPage } from './pages/ResultsPage';
@@ -21,6 +29,7 @@ function App() {
               </Routes>
             </div>
           </main>
+          <Footer />
         </div>
       </BrowserRouter>
     </SessionProvider>

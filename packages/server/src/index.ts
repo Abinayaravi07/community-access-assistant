@@ -1,3 +1,10 @@
+/**
+ * Community Access Assistant - Backend API Server
+ * Copyright (c) 2026 Abinaya R (Abinayaravi07)
+ * Licensed under MIT License
+ * GitHub: https://github.com/Abinayaravi07/community-access-assistant
+ */
+
 import express from 'express';
 import cors from 'cors';
 import { sampleSchemes, type GovernmentScheme } from '@community-access/shared';
