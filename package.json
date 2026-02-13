@@ -2,6 +2,8 @@
   "name": "community-access-assistant",
   "version": "1.0.0",
   "description": "AI-powered web application that helps citizens understand and access government schemes and public services",
+  "author": "Abinaya R <btechit240254@smvec.ac.in> (https://github.com/Abinayaravi07)",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"

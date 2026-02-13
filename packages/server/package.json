@@ -2,6 +2,8 @@
   "name": "@community-access/server",
   "version": "1.0.0",
   "description": "Node.js backend for Community Access Assistant",
+  "author": "Abinaya R <btechit240254@smvec.ac.in>",
+  "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
