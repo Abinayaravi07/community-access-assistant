@@ -109,4 +109,4 @@ This app is deployed on **Vercel**. Any push to the `main` branch triggers autom
 
 ## License
 
-© 2026 Abinaya R. All rights reserved.
+This project is licensed under the MIT License.
